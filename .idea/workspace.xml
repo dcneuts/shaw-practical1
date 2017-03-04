@@ -27,11 +27,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+            <state relative-caret-position="481">
+              <caret line="166" column="55" lean-forward="false" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
               <folding>
-                <element signature="e#7065#7071#0" expanded="true" />
-                <element signature="e#7762#7767#0" expanded="true" />
+                <element signature="e#9530#9536#0" expanded="true" />
+                <element signature="e#10227#10232#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,7 +264,7 @@
       <workItem from="1488519337295" duration="10000" />
       <workItem from="1488519359223" duration="671000" />
       <workItem from="1488605118813" duration="5566000" />
-      <workItem from="1488610811459" duration="389000" />
+      <workItem from="1488610811459" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit for establishing Shaw project with WebStorm">
       <created>1485066708047</created>
@@ -329,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488610181310</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added product meta including placeholder for ratings that will come from DB later">
+      <created>1488611229088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1488611229088</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10932000" />
+    <option name="totallyTimeSpent" value="11272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,7 +408,8 @@
     <MESSAGE value="Cleaned up placeholder code and beginning to build framework for menus and carousel that will be powered by JS" />
     <MESSAGE value="Carousel setup and addition of images for products" />
     <MESSAGE value="Starting to add functionality to the basic carousel using Bootstrap and JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting to add functionality to the basic carousel using Bootstrap and JS" />
+    <MESSAGE value="Added product meta including placeholder for ratings that will come from DB later" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added product meta including placeholder for ratings that will come from DB later" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -413,8 +421,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,8 +440,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -443,8 +451,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -454,8 +462,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -465,8 +473,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -476,8 +484,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -487,8 +495,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -510,11 +518,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        <state relative-caret-position="481">
+          <caret line="166" column="55" lean-forward="false" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
           <folding>
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7762#7767#0" expanded="true" />
+            <element signature="e#9530#9536#0" expanded="true" />
+            <element signature="e#10227#10232#0" expanded="true" />
           </folding>
         </state>
       </provider>

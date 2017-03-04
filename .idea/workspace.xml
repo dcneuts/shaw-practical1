@@ -27,11 +27,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="801">
+              <caret line="105" column="48" lean-forward="false" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
               <folding>
-                <element signature="e#4324#4330#0" expanded="true" />
-                <element signature="e#5021#5026#0" expanded="true" />
+                <element signature="e#5363#5369#0" expanded="true" />
+                <element signature="e#6060#6065#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -237,7 +237,7 @@
       <workItem from="1487835757744" duration="263000" />
       <workItem from="1488519337295" duration="10000" />
       <workItem from="1488519359223" duration="671000" />
-      <workItem from="1488605118813" duration="2280000" />
+      <workItem from="1488605118813" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit for establishing Shaw project with WebStorm">
       <created>1485066708047</created>
@@ -281,11 +281,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487835991751</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cleaned up placeholder code and beginning to build framework for menus and carousel that will be powered by JS">
+      <created>1488607484339</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1488607484339</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7257000" />
+    <option name="totallyTimeSpent" value="8658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +311,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -343,12 +350,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit for establishing Shaw project with WebStorm" />
     <MESSAGE value="Added CDN references for external styles and scripts" />
     <MESSAGE value="Added CDN reference for jQuery" />
     <MESSAGE value="Added BS fluid container for initial project settings" />
     <MESSAGE value="Converted project to Pinegrow and WebStorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted project to Pinegrow and WebStorm" />
+    <MESSAGE value="Cleaned up placeholder code and beginning to build framework for menus and carousel that will be powered by JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up placeholder code and beginning to build framework for menus and carousel that will be powered by JS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -360,8 +370,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-            <element signature="e#5021#5026#0" expanded="true" />
+            <element signature="e#5363#5369#0" expanded="true" />
+            <element signature="e#6060#6065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -371,8 +381,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-            <element signature="e#5021#5026#0" expanded="true" />
+            <element signature="e#5363#5369#0" expanded="true" />
+            <element signature="e#6060#6065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -382,8 +392,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-            <element signature="e#5021#5026#0" expanded="true" />
+            <element signature="e#5363#5369#0" expanded="true" />
+            <element signature="e#6060#6065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -393,8 +403,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-            <element signature="e#5021#5026#0" expanded="true" />
+            <element signature="e#5363#5369#0" expanded="true" />
+            <element signature="e#6060#6065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -404,8 +414,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-            <element signature="e#5021#5026#0" expanded="true" />
+            <element signature="e#5363#5369#0" expanded="true" />
+            <element signature="e#6060#6065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,8 +425,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-            <element signature="e#5021#5026#0" expanded="true" />
+            <element signature="e#5363#5369#0" expanded="true" />
+            <element signature="e#6060#6065#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -438,11 +448,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="801">
+          <caret line="105" column="48" lean-forward="false" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
           <folding>
-            <element signature="e#4324#4330#0" expanded="true" />
-            <element signature="e#5021#5026#0" expanded="true" />
+            <element signature="e#5363#5369#0" expanded="true" />
+            <element signature="e#6060#6065#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -27,12 +27,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="105" column="48" lean-forward="false" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+            <state relative-caret-position="641">
+              <caret line="112" column="95" lean-forward="false" selection-start-line="112" selection-start-column="95" selection-end-line="112" selection-end-column="95" />
               <folding>
-                <element signature="e#5363#5369#0" expanded="true" />
-                <element signature="e#6060#6065#0" expanded="true" />
+                <element signature="e#5775#5781#0" expanded="true" />
+                <element signature="e#6472#6477#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,6 +58,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -89,6 +100,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shawpractical" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shawpractical" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shawpractical" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,7 +262,7 @@
       <workItem from="1487835757744" duration="263000" />
       <workItem from="1488519337295" duration="10000" />
       <workItem from="1488519359223" duration="671000" />
-      <workItem from="1488605118813" duration="3681000" />
+      <workItem from="1488605118813" duration="4927000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit for establishing Shaw project with WebStorm">
       <created>1485066708047</created>
@@ -288,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488607484339</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Carousel setup and addition of images for products">
+      <created>1488608949874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488608949874</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8658000" />
+    <option name="totallyTimeSpent" value="9904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,7 +390,8 @@
     <MESSAGE value="Added BS fluid container for initial project settings" />
     <MESSAGE value="Converted project to Pinegrow and WebStorm" />
     <MESSAGE value="Cleaned up placeholder code and beginning to build framework for menus and carousel that will be powered by JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up placeholder code and beginning to build framework for menus and carousel that will be powered by JS" />
+    <MESSAGE value="Carousel setup and addition of images for products" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carousel setup and addition of images for products" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -370,8 +403,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5363#5369#0" expanded="true" />
-            <element signature="e#6060#6065#0" expanded="true" />
+            <element signature="e#5775#5781#0" expanded="true" />
+            <element signature="e#6472#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -381,8 +414,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5363#5369#0" expanded="true" />
-            <element signature="e#6060#6065#0" expanded="true" />
+            <element signature="e#5775#5781#0" expanded="true" />
+            <element signature="e#6472#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -392,8 +425,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5363#5369#0" expanded="true" />
-            <element signature="e#6060#6065#0" expanded="true" />
+            <element signature="e#5775#5781#0" expanded="true" />
+            <element signature="e#6472#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,8 +436,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5363#5369#0" expanded="true" />
-            <element signature="e#6060#6065#0" expanded="true" />
+            <element signature="e#5775#5781#0" expanded="true" />
+            <element signature="e#6472#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -414,8 +447,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5363#5369#0" expanded="true" />
-            <element signature="e#6060#6065#0" expanded="true" />
+            <element signature="e#5775#5781#0" expanded="true" />
+            <element signature="e#6472#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -425,16 +458,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5363#5369#0" expanded="true" />
-            <element signature="e#6060#6065#0" expanded="true" />
+            <element signature="e#5775#5781#0" expanded="true" />
+            <element signature="e#6472#6477#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -446,13 +472,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="105" column="48" lean-forward="false" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+        <state relative-caret-position="641">
+          <caret line="112" column="95" lean-forward="false" selection-start-line="112" selection-start-column="95" selection-end-line="112" selection-end-column="95" />
           <folding>
-            <element signature="e#5363#5369#0" expanded="true" />
-            <element signature="e#6060#6065#0" expanded="true" />
+            <element signature="e#5775#5781#0" expanded="true" />
+            <element signature="e#6472#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>

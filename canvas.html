@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Demonstration</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1200" height="800" style="border: 1px solid #d3d3d3;">HTML Canvas is not
+    supported in your browser.
+</canvas>
+<script>
+	var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+		window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+	var cancelAnimationFrame  = window.cancelAnimationFrame || window.mozCancelAnimationFrame ||
+		window.mozCancelAnimationFrame;
+	var canvas                = document.getElementById("myCanvas");
+	var ctx                   = canvas.getContext("2d");
+	requestAnimationFrame(draw);
+	function draw() {
+		requestAnimationFrame(draw);
+	}
+</script>
+</body>
+</html>

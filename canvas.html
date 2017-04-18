@@ -19,19 +19,24 @@
 	ctx.strokeStyle = "#6b54bf";
 
 	ctx.font = "24px arial";
+    ctx.lineWidth = 12;
+    ctx.lineJoin = "round";
+	ctx.lineCap = "round";
 
 	requestAnimationFrame(draw);
 	function draw() {
 
 		ctx.beginPath();
-		ctx.rect(10,10,100,200);
+		ctx.rect(10,10,200,100);
 		ctx.fill();
+		ctx.stroke();
 
-		ctx.beginPath();
-		ctx.save();
-		ctx.fillStyle = "#f9dd88";
-		ctx.fillText("This is HTML5 Canvas", 20, 100);
-		ctx.restore();
+        ctx.beginPath();
+        ctx.moveTo(300,50);
+        ctx.lineTo(400,50);
+		ctx.lineTo(300,100);
+		ctx.closePath();
+        ctx.fill();
 
 		requestAnimationFrame(draw);
 	}

@@ -40,8 +40,8 @@
       <file leaf-file-name="canvas.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/canvas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="396">
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -311,7 +311,7 @@
       <workItem from="1489132471994" duration="924000" />
       <workItem from="1489211998479" duration="1045000" />
       <workItem from="1492495158060" duration="70000" />
-      <workItem from="1492495341426" duration="1352000" />
+      <workItem from="1492495341426" duration="1458000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit for establishing Shaw project with WebStorm">
       <created>1485066708047</created>
@@ -397,11 +397,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492497223647</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="First method of drawing on-screen using Canvas fill method.">
+      <created>1492497626993</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1492497626993</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16385000" />
+    <option name="totallyTimeSpent" value="16491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,7 +479,8 @@
     <MESSAGE value="Added product meta including placeholder for ratings that will come from DB later" />
     <MESSAGE value="Fixed some DIV issues and varied the meta for the 3 recommended products before Lesson 3 on shopping cart design" />
     <MESSAGE value="Begin sample Canvas scripting for later integration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Begin sample Canvas scripting for later integration." />
+    <MESSAGE value="First method of drawing on-screen using Canvas fill method." />
+    <option name="LAST_COMMIT_MESSAGE" value="First method of drawing on-screen using Canvas fill method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -725,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="396">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

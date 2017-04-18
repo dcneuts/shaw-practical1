@@ -16,6 +16,7 @@
 	var canvas                = document.getElementById("myCanvas");
 	var ctx                   = canvas.getContext("2d");
 	ctx.fillStyle = "#2d9aad";
+	ctx.strokeStyle = "#6b54bf";
 
 	requestAnimationFrame(draw);
 	function draw() {
@@ -23,7 +24,7 @@
 		ctx.beginPath();
 		ctx.rect(10,10,100,200);
 		ctx.rect(210,210,200,100);
-		ctx.fill();
+		ctx.stroke();
 
 		requestAnimationFrame(draw);
 	}

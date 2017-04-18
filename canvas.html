@@ -18,14 +18,20 @@
 	ctx.fillStyle = "#2d9aad";
 	ctx.strokeStyle = "#6b54bf";
 
+	ctx.font = "24px arial";
+
 	requestAnimationFrame(draw);
 	function draw() {
 
 		ctx.beginPath();
 		ctx.rect(10,10,100,200);
-		ctx.rect(210,210,200,100);
 		ctx.fill();
-		ctx.stroke();
+
+		ctx.beginPath();
+		ctx.save();
+		ctx.fillStyle = "#f9dd88";
+		ctx.fillText("This is HTML5 Canvas", 20, 100);
+		ctx.restore();
 
 		requestAnimationFrame(draw);
 	}

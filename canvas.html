@@ -36,54 +36,70 @@
 	pauseUnpause();
 
 	requestAnimationFrame(draw);
-	function update(){
-        var grid = JSON.parse(JASON.stringify(lifeParticles));
-        for(i=1;i<gameWidth-1;i++){
-        	for(j=1;j<gameHeight-1;j++){
-        		var count=0;
-        		if(grid[i-1][j-1]===true){
-        			count++;
-                }
-				if(grid[i-1][j]===true){
+	function update() {
+		var grid = JSON.parse(JASON.stringify(lifeParticles));
+		for (i = 1; i < gameWidth - 1; i++) {
+			for (j = 1; j < gameHeight - 1; j++) {
+				var count = 0;
+				if (grid[i - 1][j - 1] === true) {
 					count++;
 				}
-				if(grid[i-1][j+1]===true){
+				if (grid[i - 1][j] === true) {
 					count++;
 				}
-				if(grid[i][j-1]===true){
+				if (grid[i - 1][j + 1] === true) {
 					count++;
 				}
-				if(grid[i][j+1]===true){
+				if (grid[i][j - 1] === true) {
 					count++;
 				}
-				if(grid[i+1][j-1]===true){
+				if (grid[i][j + 1] === true) {
 					count++;
 				}
-				if(grid[i+1][j]===true){
+				if (grid[i + 1][j - 1] === true) {
 					count++;
 				}
-				if(grid[i+1][j+1]===true){
+				if (grid[i + 1][j] === true) {
+					count++;
+				}
+				if (grid[i + 1][j + 1] === true) {
 					count++;
 				}
 
-				if(grid[i][j]===true){
-					if(count<2){
-						lifeParticles[i][j]=false;
-                    }
-					if(count>3){
-						lifeParticles[i][j]=false;
+				if (grid[i][j] === true) {
+					if (count < 2) {
+						lifeParticles[i][j] = false;
 					}
-                }
-                else {
-					if(count==3) {
-						lifeParticles[i][j]=true;
-                    }
-                }
-            }
-        }
+					if (count > 3) {
+						lifeParticles[i][j] = false;
+					}
+				}
+				else {
+					if (count == 3) {
+						lifeParticles[i][j] = true;
+					}
+				}
+			}
+		}
 	}
 
 	function draw() {
+		var count = 0;
+		//Beginning of every draw cycle you must refresh using Canvas
+		ctx.clearRect(0, 0, canvas.width, canvas.height);
+		ctx.beginPath();
+		for (i = 0; i < gameWidth; i++) {
+			for (j = 0; j < gameHeight; j++) {
+				if (lifeParticles[i][j] === true) {
+					count++;
+					ctx.rect(i * blockSize + 1, j * blockSize + 1, blockSize - 1, blockSize - 1);
+				}
+			}
+		}
+
+		ctx.fill();
+
+		window.requestAnimationFrame(draw);
 		requestAnimationFrame(draw);
 	}
 	//Creation of an array of arrays in order to simulate desired effect
@@ -108,7 +124,7 @@
 	}
 
 	//Setup to enable toggle for pause and unpause through NOT operator
-    //Deals with the update loop and not the drawing loop in canvas
+	//Deals with the update loop and not the drawing loop in canvas
 	function pauseUnpause() {
 		pause = !pause;
 		if (!pause) {

@@ -27,8 +27,8 @@
       <file leaf-file-name="canvas.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/canvas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="78" column="49" lean-forward="false" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+            <state relative-caret-position="93">
+              <caret line="87" column="69" lean-forward="false" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -542,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492582718204</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Attempted to setup rules of organic generation routine">
+      <created>1492583542186</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1492583542186</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20585000" />
+    <option name="totallyTimeSpent" value="21872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,7 +641,8 @@
     <MESSAGE value="Setting up next step of Canvas JS demo, have not yet added the presets.js file yet, simply setting up an array and behavioral loops." />
     <MESSAGE value="Setting up event click handler" />
     <MESSAGE value="Setup pause and unpause function through logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup pause and unpause function through logic" />
+    <MESSAGE value="Attempted to setup rules of organic generation routine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempted to setup rules of organic generation routine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1017,8 +1025,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="78" column="49" lean-forward="false" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+        <state relative-caret-position="93">
+          <caret line="87" column="69" lean-forward="false" selection-start-line="87" selection-start-column="69" selection-end-line="87" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

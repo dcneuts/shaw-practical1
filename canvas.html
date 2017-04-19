@@ -36,12 +36,57 @@
 	pauseUnpause();
 
 	requestAnimationFrame(draw);
+	function update(){
+        var grid = JSON.parse(JASON.stringify(lifeParticles));
+        for(i=1;i<gameWidth-1;i++){
+        	for(j=1;j<gameHeight-1;j++){
+        		var count=0;
+        		if(grid[i-1][j-1]===true){
+        			count++;
+                }
+				if(grid[i-1][j]===true){
+					count++;
+				}
+				if(grid[i-1][j+1]===true){
+					count++;
+				}
+				if(grid[i][j-1]===true){
+					count++;
+				}
+				if(grid[i][j+1]===true){
+					count++;
+				}
+				if(grid[i+1][j-1]===true){
+					count++;
+				}
+				if(grid[i+1][j]===true){
+					count++;
+				}
+				if(grid[i+1][j+1]===true){
+					count++;
+				}
+
+				if(grid[i][j]===true){
+					if(count<2){
+						lifeParticles[i][j]=false;
+                    }
+					if(count>3){
+						lifeParticles[i][j]=false;
+					}
+                }
+                else {
+					if(count==3) {
+						lifeParticles[i][j]=true;
+                    }
+                }
+            }
+        }
+	}
+
 	function draw() {
-
-
 		requestAnimationFrame(draw);
 	}
-//Creation of an array of arrays in order to simulate desired effect
+	//Creation of an array of arrays in order to simulate desired effect
 	function create2DArray(width, height) {
 		var arr = [];
 
@@ -56,22 +101,23 @@
 
 	//Should track changes and translate to X and Y position inside Canvas
 	function clickHandler(event) {
-        var x = Math.floor(event.clientX/blockSize);
-        var y = Math.floor(event.clientY/blockSize);
-        console.log(event.clientX+", "+event.clientY);
-        lifeParticles[x][y] = !lifeParticles[x][y];
+		var x = Math.floor(event.clientX / blockSize);
+		var y = Math.floor(event.clientY / blockSize);
+		console.log(event.clientX + ", " + event.clientY);
+		lifeParticles[x][y] = !lifeParticles[x][y];
 	}
 
 	//Setup to enable toggle for pause and unpause through NOT operator
-	function pauseUnpause(){
+    //Deals with the update loop and not the drawing loop in canvas
+	function pauseUnpause() {
 		pause = !pause;
-		if(!pause){
+		if (!pause) {
 			gameCycle = window.setInterval(update, 200);
-        }
-        else {
+		}
+		else {
 			window.clearInterval(gameCycle);
-        }
-    }
+		}
+	}
 </script>
 </body>
 </html>

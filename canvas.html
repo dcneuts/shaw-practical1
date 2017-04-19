@@ -41,7 +41,7 @@
 
 		requestAnimationFrame(draw);
 	}
-
+//Creation of an array of arrays in order to simulate desired effect
 	function create2DArray(width, height) {
 		var arr = [];
 
@@ -52,6 +52,12 @@
 			}
 		}
 		return arr;
+	}
+	function clickHandler(event) {
+        var x = Math.floor(event.clientX/blockSize);
+        var y = Math.floor(event.clientY/blockSize);
+        console.log(event.clientX+", "+event.clientY);
+        lifeParticles[x][y] = !lifeParticles[x][y];
 	}
 </script>
 </body>

@@ -15,32 +15,13 @@
 		window.mozCancelAnimationFrame;
 	var canvas                = document.getElementById("myCanvas");
 	var ctx                   = canvas.getContext("2d");
-	ctx.fillStyle = "#2d9aad";
-	ctx.strokeStyle = "#6b54bf";
 
-	ctx.font = "24px arial";
-    ctx.lineWidth = 12;
-    ctx.lineJoin = "round";
-	ctx.lineCap = "round";
+
 
 	requestAnimationFrame(draw);
 	function draw() {
 
-		ctx.beginPath();
-		ctx.rect(10,10,200,100);
-		ctx.fill();
-		ctx.stroke();
 
-        ctx.beginPath();
-        ctx.moveTo(300,50);
-        ctx.lineTo(400,50);
-		ctx.lineTo(300,100);
-		ctx.closePath();
-        ctx.fill();
-
-        ctx.beginPath();
-        ctx.arc(500,300,100,0,2*Math.PI);
-        ctx.fill();
 
 		requestAnimationFrame(draw);
 	}

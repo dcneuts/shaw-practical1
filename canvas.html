@@ -31,7 +31,7 @@
 
 	lifeParticles = presets.pentaDecathlon(10, 10);
 	var gameCycle;
-	var drawCycle = window.requestAnimationFrame(draw);
+	var drawCycle = requestAnimationFrame(draw);
 
 	pauseUnpause();
 
@@ -53,12 +53,25 @@
 		}
 		return arr;
 	}
+
+	//Should track changes and translate to X and Y position inside Canvas
 	function clickHandler(event) {
         var x = Math.floor(event.clientX/blockSize);
         var y = Math.floor(event.clientY/blockSize);
         console.log(event.clientX+", "+event.clientY);
         lifeParticles[x][y] = !lifeParticles[x][y];
 	}
+
+	//Setup to enable toggle for pause and unpause through NOT operator
+	function pauseUnpause(){
+		pause = !pause;
+		if(!pause){
+			gameCycle = window.setInterval(update, 200);
+        }
+        else {
+			window.clearInterval(gameCycle);
+        }
+    }
 </script>
 </body>
 </html>

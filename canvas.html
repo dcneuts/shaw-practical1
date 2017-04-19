@@ -8,22 +8,50 @@
 <canvas id="myCanvas" width="1200" height="800" style="border: 1px solid #d3d3d3;">HTML Canvas is not
     supported in your browser.
 </canvas>
+<button onclick="pauseUnpause()">Pause</button>
+<script src="presets.js"></script>
 <script>
+
 	var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
 		window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
 	var cancelAnimationFrame  = window.cancelAnimationFrame || window.mozCancelAnimationFrame ||
 		window.mozCancelAnimationFrame;
 	var canvas                = document.getElementById("myCanvas");
-	var ctx                   = canvas.getContext("2d");
 
+	canvas.addEventListener("click", clickHandler, true);
 
+	var pause = true;
+
+	var ctx        = canvas.getContext("2d");
+	var gameWidth  = 48;
+	var gameHeight = 36;
+	var blockSize  = 25;
+
+	var lifeParticles = create2DArray(gameWidth, gameHeight);
+
+	lifeParticles = presets.pentaDecathlon(10, 10);
+	var gameCycle;
+	var drawCycle = window.requestAnimationFrame(draw);
+
+	pauseUnpause();
 
 	requestAnimationFrame(draw);
 	function draw() {
 
 
-
 		requestAnimationFrame(draw);
+	}
+
+	function create2DArray(width, height) {
+		var arr = [];
+
+		for (i = 0; i < width; i++) {
+			arr.push(new Array());
+			for (j = 0; j < height; j++) {
+				arr[i] [j] = false
+			}
+		}
+		return arr;
 	}
 </script>
 </body>

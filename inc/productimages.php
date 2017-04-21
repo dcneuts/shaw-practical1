@@ -1,5 +1,7 @@
-<?php>
+<?php
 
     header('Content-Type: application/json');
 
-    $_GET['product']
+    if(isset)$_GET['product'])){
+        $productLink="http://placehold.it/1024x768?text=".$_GET['product'];
+    }

@@ -17,10 +17,16 @@ class Person {
     public function __get($prop) {
         return $this->$prop." is currently doing some crazy things.";
     }
+    //With set, first is the origin and then what you'd like it to be
+    public function __set($prop,$value) {
+        $this->$prop = $value;
+    }
 }
 $names = array("Benjamin","Rafa","Hassan","Jade","Ali","Rob");
 
 for ($i=0;$i<sizeof($names);$i++) {
     $person = new Person($names[$i]);
-    echo $person->name."<br>";
+    //Override the names in the array and echo confirmation of same
+    $person->name = "Test";
+    echo $person->name;
 }

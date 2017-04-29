@@ -8,11 +8,14 @@
  */
 
 class Person {
-    public $name;
+    protected $name;
     protected $dateOfBirth;
 
     public function __construct($name) {
         $this->name = $name;
+    }
+    public function __get($prop) {
+        return $this->$prop;
     }
 }
 $names = array("Benjamin","Rafa","Hassan","Jade","Ali","Rob");

@@ -15,7 +15,7 @@ class Person {
         $this->name = $name;
     }
     public function __get($prop) {
-        return $this->$prop;
+        return $this->$prop." is currently doing some crazy things.";
     }
 }
 $names = array("Benjamin","Rafa","Hassan","Jade","Ali","Rob");

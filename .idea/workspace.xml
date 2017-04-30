@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b5bd34-f5b2-45de-909b-68a29049c971" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/student.php" afterPath="$PROJECT_DIR$/php/student.php" />
     </list>
@@ -26,15 +27,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.35021323">
       <split-first>
         <leaf>
           <file leaf-file-name="person2.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/php/person2.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="484">
-                  <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-                  <folding />
+                <state relative-caret-position="682">
+                  <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="56" />
+                  <folding>
+                    <element signature="e#6#107#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -43,11 +46,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="student.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="student.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/php/student.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="638">
-                  <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+                  <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/php/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -63,10 +76,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/index.php" />
         <option value="$PROJECT_DIR$/class/person.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/php/person2.php" />
+        <option value="$PROJECT_DIR$/php/index.php" />
         <option value="$PROJECT_DIR$/php/student.php" />
       </list>
     </option>
@@ -182,12 +195,12 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Bitnami\htdocs\shawpractical\class" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Bitnami\htdocs\shawpractical\php" />
       <recent name="G:\Bitnami\htdocs\shawpractical" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Bitnami\htdocs\shawpractical\class" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,7 +322,7 @@
       <workItem from="1493453940126" duration="631000" />
       <workItem from="1493485787096" duration="6010000" />
       <workItem from="1493506705301" duration="2624000" />
-      <workItem from="1493536458493" duration="3218000" />
+      <workItem from="1493536458493" duration="4173000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -409,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493539350340</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Pulled data from other php file using include_once method to use other classes, output using echo">
+      <created>1493539747240</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1493539747240</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16178000" />
+    <option name="totallyTimeSpent" value="17133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -506,7 +526,8 @@
     <MESSAGE value="Age calculation demo completed in PHP for class exercise" />
     <MESSAGE value="Setting up the student.php file to pull info from include_once method on person2.php" />
     <MESSAGE value="Using public function __get() magic method with IF to allow direct echo of content without imploding every time." />
-    <option name="LAST_COMMIT_MESSAGE" value="Using public function __get() magic method with IF to allow direct echo of content without imploding every time." />
+    <MESSAGE value="Pulled data from other php file using include_once method to use other classes, output using echo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pulled data from other php file using include_once method to use other classes, output using echo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -525,7 +546,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#6#107#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -543,7 +566,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/php/index.php" />
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -551,7 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/php/index.php" />
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -559,7 +582,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/php/index.php" />
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -605,7 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -616,16 +638,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/person2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="682">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="56" />
+          <folding>
+            <element signature="e#6#107#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>

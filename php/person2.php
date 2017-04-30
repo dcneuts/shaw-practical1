@@ -27,4 +27,3 @@ class Person {
     }
 }
 $person = new Person("Ben", new DateTime("1985-12-21"));
-echo $person->age;

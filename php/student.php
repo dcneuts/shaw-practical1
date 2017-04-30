@@ -23,3 +23,7 @@ class Student extends Person {
 
 $student = new Student("Ben",new DateTime("1985-12-21"),array("CS101","CS105","WD202"));
 echo $student->classList;
+echo "<br>";
+echo $person->name;
+echo "<br>";
+echo $student->age;

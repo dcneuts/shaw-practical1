@@ -17,7 +17,7 @@ class Person {
     }
     public function __get($prop) {
         if($prop=="age") {
-            $age = (new DateTime())-($this->dateOfBirth);
+            $age = (new DateTime())->diff($this->dateOfBirth);
             return $age->y;
         }
         return $this->$prop;

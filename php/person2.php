@@ -15,7 +15,7 @@ class Person {
         $this->name = $name;
     }
     public function __get($prop) {
-        return $this->$prop." is currently doing some crazy things.";
+        return $this->$prop." is in the array.<br>";
     }
     //With set, first is the origin and then what you'd like it to be
     public function __set($prop,$value) {

@@ -26,36 +26,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="28" column="83" lean-forward="false" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="person2.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/php/person2.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="person2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/person2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -308,7 +290,7 @@
       <workItem from="1493453940126" duration="631000" />
       <workItem from="1493485787096" duration="6010000" />
       <workItem from="1493506705301" duration="2624000" />
-      <workItem from="1493536458493" duration="286000" />
+      <workItem from="1493536458493" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -366,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493536627480</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creating new demo for class exercise">
+      <created>1493536754320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1493536754320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13246000" />
+    <option name="totallyTimeSpent" value="14029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -437,7 +426,8 @@
     <MESSAGE value="Concat of PHP output" />
     <MESSAGE value="Removal of index.php, will not be needed right now" />
     <MESSAGE value="Modification of PHP demo file to make it cleaner, placed in line break." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification of PHP demo file to make it cleaner, placed in line break." />
+    <MESSAGE value="Creating new demo for class exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating new demo for class exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -547,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/person2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="110">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>

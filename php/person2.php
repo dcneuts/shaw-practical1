@@ -11,8 +11,9 @@ class Person {
     protected $name;
     protected $dateOfBirth;
 
-    public function __construct($name) {
+    public function __construct($name,$dateOfBirth) {
         $this->name = $name;
+        $this->dateOfBirth = $dateOfBirth;
     }
     public function __get($prop) {
         return $this->$prop;
@@ -21,4 +22,5 @@ class Person {
         $this->$prop = $value;
     }
 }
-$person = new Person("Ben","1987-2-19");
+$person = new Person("Ben", new DateTime("1985-12-21"));
+echo $person->dateOfBirth->format("Y-m-d");

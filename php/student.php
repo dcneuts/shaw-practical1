@@ -13,7 +13,13 @@ class Student extends Person {
         // Double colon to gain access to a method of a class without instance
         parent::__construct($name,$dateOfBirth);
     }
+    public function __get($prop) {
+        if($prop=="classList"){
+                return implode(" | ",$this->classList);
+        }
+        return parent::__get($prop);
+    }
 }
 
 $student = new Student("Ben",new DateTime("1985-12-21"),array("CS101","CS105","WD202"));
-echo implode(" | ",$student->classList);
+echo $student->classList;

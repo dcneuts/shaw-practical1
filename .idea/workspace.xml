@@ -46,8 +46,8 @@
           <file leaf-file-name="person2.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/php/person2.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+                <state relative-caret-position="374">
+                  <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -308,7 +308,7 @@
       <workItem from="1493453940126" duration="631000" />
       <workItem from="1493485787096" duration="6010000" />
       <workItem from="1493506705301" duration="2624000" />
-      <workItem from="1493536458493" duration="144000" />
+      <workItem from="1493536458493" duration="286000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -359,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493508339353</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modification of PHP demo file to make it cleaner, placed in line break.">
+      <created>1493536627480</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493536627480</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13104000" />
+    <option name="totallyTimeSpent" value="13246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,7 +436,8 @@
     <MESSAGE value="Another iteration of PHP using the function __get() method to dynamically generate based on the array and loop." />
     <MESSAGE value="Concat of PHP output" />
     <MESSAGE value="Removal of index.php, will not be needed right now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removal of index.php, will not be needed right now" />
+    <MESSAGE value="Modification of PHP demo file to make it cleaner, placed in line break." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification of PHP demo file to make it cleaner, placed in line break." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -539,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/person2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding />
         </state>
       </provider>

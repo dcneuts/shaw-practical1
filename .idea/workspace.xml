@@ -30,8 +30,8 @@
       <file leaf-file-name="person2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/person2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="308">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -290,7 +290,7 @@
       <workItem from="1493453940126" duration="631000" />
       <workItem from="1493485787096" duration="6010000" />
       <workItem from="1493506705301" duration="2624000" />
-      <workItem from="1493536458493" duration="1069000" />
+      <workItem from="1493536458493" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -355,11 +355,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493536754320</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Displaying data with dateTime() method">
+      <created>1493537553335</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1493537553335</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14029000" />
+    <option name="totallyTimeSpent" value="14229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -427,7 +434,8 @@
     <MESSAGE value="Removal of index.php, will not be needed right now" />
     <MESSAGE value="Modification of PHP demo file to make it cleaner, placed in line break." />
     <MESSAGE value="Creating new demo for class exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating new demo for class exercise" />
+    <MESSAGE value="Displaying data with dateTime() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Displaying data with dateTime() method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -537,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/person2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
           <folding />
         </state>
       </provider>

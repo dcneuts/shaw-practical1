@@ -16,6 +16,10 @@ class Person {
         $this->dateOfBirth = $dateOfBirth;
     }
     public function __get($prop) {
+        if($prop=="age") {
+            $age = (new DateTime())-($this->dateOfBirth);
+            return $age->y;
+        }
         return $this->$prop;
     }
     public function __set($prop,$value) {
@@ -23,4 +27,4 @@ class Person {
     }
 }
 $person = new Person("Ben", new DateTime("1985-12-21"));
-echo $person->dateOfBirth->format("Y-m-d");
+echo $person->age;

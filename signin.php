@@ -20,20 +20,9 @@
 </head>
 <!--Comments will be included throughout for instructional review-->
 <body>
-<!--Body Header-->
-<header>
-    <div class='container-fluid'>
-        <div class='jumbotron text-center'>
-            <h1>Shawpify</h1>
-            <p>
-                Offering a wide range of products from consumer electronics to cars</p>
-        </div>
-    </div>
-</header>
 <!--Nav Section-->
 <nav class='navbar navbar-inverse navbar-fixed-top'>
     <div class='container-fluid'>
-        <!--Body Header-->
         <header class='navbar-header'>
             <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
                 <span class='glyphicon glyphicon-menu-hamburger mobmenu'></span>
@@ -68,10 +57,20 @@
         </div>
     </div>
 </nav>
+<!--Body Header-->
+<header>
+    <div class='container'>
+            <h1>Login</h1>
+    </div>
+</header>
+
+
 <!--Main-->
 <main class="container">
 
 </main>
+
+
 <!--Footer Area-->
 <footer class='text-center'>
     <nav class='navbar navbar-inverse navbar-fixed-bottom'>

@@ -27,7 +27,7 @@
             <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
                 <span class='glyphicon glyphicon-menu-hamburger mobmenu'></span>
             </button>
-            <a class='navbar-brand' href='index.html'>Shawpify Home</a>
+            <a class='navbar-brand' href='index.php'>Shawpify Home</a>
         </header>
         <div class='collapse navbar-collapse' id='myNavbar'>
             <ul class='nav navbar-nav'>

@@ -1,7 +1,6 @@
 <?php
     include "inc/head.inc.php";
 ?>
-<body>
 <!--Header-->
 <header>
     <div class='container-fluid'>

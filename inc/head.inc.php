@@ -1,3 +1,6 @@
+<?php
+    session_start();
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,9 +40,14 @@
                 </li>
             </ul>
             <ul class='nav navbar-nav navbar-right'>
-                <li>
-                    <a href='signin.php'><span class='glyphicon glyphicon-user'>Sign-In</span></a>
-                </li>
+                <?php
+                    if(isset($_SESSION['id'])){
+                        echo "<li><a href='signout.php'><span class='glyphicon glyphicon-user'></span>Sign Out</a></li>";
+                    }
+                    else {
+                        echo "<li><a href='signin.php'><span class='glyphicon glyphicon-user'></span>Sign In</a></li>";
+                    }
+                ?>
                 <li>
                     <a href='#'><span class='glyphicon glyphicon-shopping-cart'>Cart</span></a>
                 </li>

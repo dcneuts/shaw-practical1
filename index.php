@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include "inc/head.inc.php";
 ?>
 <!--Header-->
@@ -6,8 +7,14 @@
     <div class='container-fluid'>
         <div class='jumbotron text-center'>
             <h1>Shawpify</h1>
-            <p>
-                Offering a wide range of products from consumer electronics to cars</p>
+            <?php
+                if(isset($_SESSION['username'])){
+                    echo "<p>Welcome back, ".$_SESSION['username']."!</p>";
+                }
+                else {
+                    echo "<p>Offering a wide range of products from consumer electronics to cars</p>";
+                }
+            ?>
         </div>
     </div>
 </header>

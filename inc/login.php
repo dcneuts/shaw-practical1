@@ -14,3 +14,12 @@
     if($conn->connect_error){
         die("Connection failed:".$conn->connect_error);
     }
+
+    $stmt = $conn->prepare("SELECT 'id','username','password' 
+      FROM 'users' 
+      WHERE 'username' = ?");
+    //"s" is for string, can be concatenated
+    $stmt->bind_param("ss",$_POST['username']);
+
+
+    $conn->close();

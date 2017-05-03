@@ -8,6 +8,7 @@
         die("Error:".var_dump($_POST));
     }
 
+    session_start();
     include_once "config.php";
     $conn = new mysqli(SERVER_NAME,USERNAME,PASSWORD,DATABASE);
 
@@ -20,6 +21,19 @@
       WHERE 'username' = ?");
     //"s" is for string, can be concatenated
     $stmt->bind_param("ss",$_POST['username']);
-
+    $stmt->execute();
+    $stmt->bind_result($id,$name,$password);
+    $stmt->fetch();
+    //comparison of passwords for later
+    //session variables using stored pass/user for testing
+    //redirection based on good or bad login
+    if($_POST['password']==$password){
+        $_SESSION['id'] = $id;
+        $_SESSION['username'] = $name;
+        header("Location: ../index.php");
+    }
+    else {
+        header("Location: ../signin.php");
+    }
 
     $conn->close();

@@ -16,11 +16,10 @@
         die("Connection failed:".$conn->connect_error);
     }
 
-    $stmt = $conn->prepare("SELECT 'id','username','password' 
-      FROM 'users' 
-      WHERE 'username' = ?");
-    //"s" is for string, can be concatenated
-    $stmt->bind_param("ss",$_POST['username']);
+	$stmt = $conn->prepare("SELECT `id`,`username`,`password`
+								FROM `users`
+								WHERE `username` = ?");
+	$stmt->bind_param("s",$_POST['username']);
     $stmt->execute();
     $stmt->bind_result($id,$name,$password);
     $stmt->fetch();

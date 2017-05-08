@@ -69,7 +69,7 @@
                     <?php
                         include_once "inc/template.php";
                         $thumbnail = new Template("product_thumbnail.html",$contentExample);
-                        for($i=0;$i<6;$i++){
+                        for($i=0;$i<$thumbnail->noOfResults;$i++){
                             echo "<div class='col-sm-4 col-lg-4 col-md-4'>";
                             echo $thumbnail->output();
                             echo "</div>";

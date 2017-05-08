@@ -45,6 +45,7 @@ class Template {
     private $template;
     private $content;
     private $hasNext;
+    private $noOfResults;
 
     public function __construct($template,$content) {
         // Should validate arguments before continuing
@@ -55,6 +56,8 @@ class Template {
     //using magic method __get
     public function __get($val) {
         if($val=="hasNext"){
+            return $this->$val;
+        } else if($val=="noOfResults"){
             return $this->$val;
         } else {
             die("Cannot access private property Template::$val");
@@ -81,6 +84,7 @@ class Template {
         //$this->template = $template;
         $this->content = $content;
         $this->hasNext = TRUE;
+        $this->noOfResults = sizeof($this->content);
     }
 }
 /*

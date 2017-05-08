@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b5bd34-f5b2-45de-909b-68a29049c971" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/template.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/template.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/product_thumbnail.html" afterPath="$PROJECT_DIR$/templates/product_thumbnail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/template.php" afterPath="$PROJECT_DIR$/templates/template.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,7 +70,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product_thumbnail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product_thumbnail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/product_thumbnail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -80,12 +80,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/template.php">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="706">
+              <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
+              <folding>
+                <element signature="e#7#89#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,9 +129,9 @@
         <option value="$PROJECT_DIR$/inc/login.php" />
         <option value="$PROJECT_DIR$/inc/config.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/inc/template.php" />
-        <option value="$PROJECT_DIR$/templates/template.php" />
         <option value="$PROJECT_DIR$/templates/product_thumbnail.html" />
+        <option value="$PROJECT_DIR$/templates/template.php" />
+        <option value="$PROJECT_DIR$/inc/template.php" />
       </list>
     </option>
   </component>
@@ -271,14 +273,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Bitnami\htdocs\shawpractical\class" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Bitnami\htdocs\shawpractical\inc" />
       <recent name="G:\Bitnami\htdocs\shawpractical\templates" />
       <recent name="G:\Bitnami\htdocs\shawpractical" />
       <recent name="G:\Bitnami\htdocs\shawpractical\css" />
       <recent name="G:\Bitnami\htdocs\shawpractical\php" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Bitnami\htdocs\shawpractical\class" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +415,7 @@
       <workItem from="1494142584958" duration="2059000" />
       <workItem from="1494180983833" duration="1881000" />
       <workItem from="1494185541597" duration="2092000" />
-      <workItem from="1494221441700" duration="351000" />
+      <workItem from="1494221441700" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -638,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494185906752</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Product thumbnail template changed &quot;product&quot; to &quot;name&quot;, and changed $content to $record in template.php">
+      <created>1494221791976</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1494221791976</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45038000" />
+    <option name="totallyTimeSpent" value="46162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1099,19 +1109,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/product_thumbnail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
+          <folding>
+            <element signature="e#7#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

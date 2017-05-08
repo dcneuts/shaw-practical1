@@ -5,6 +5,7 @@
  * User: Derek
  * Date: 5/7/2017
  * Time: 12:04 PM
+ * Template Engine Class Project
  */
 
 $contentExample = array(
@@ -43,11 +44,21 @@ $contentExample = array(
 class Template {
     private $template;
     private $content;
-    public $hasNext;
+    private $hasNext;
 
     public function __construct($template,$content) {
         // Should validate arguments before continuing
         $this->load($template,$content);
+    }
+
+    //public function to override the private $hasNext class to disallow access to it directly
+    //using magic method __get
+    public function __get($val) {
+        if($val=="hasNext"){
+            return $this->$val;
+        } else {
+            die("Cannot access private property Template::$val");
+        }
     }
 
     public function output(){
@@ -72,7 +83,9 @@ class Template {
         $this->hasNext = TRUE;
     }
 }
+/*
 $test = new Template('product_thumbnail.html',$contentExample);
 while($test->hasNext){
     echo $test->output();
 }
+*/

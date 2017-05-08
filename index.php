@@ -66,6 +66,7 @@
                     </div>
                 </div>
                 <div class='row'>
+                    <!--
                     <div class='col-md-4'>
                         <div class='thumbnail'>
                             <img src='http://placehold.it/320x150' alt='Thumbnail Image'>
@@ -187,7 +188,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <div class='text-center'>
                     <nav aria-label='Page navigation'>

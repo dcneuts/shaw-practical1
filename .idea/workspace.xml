@@ -82,8 +82,8 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="-20">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding>
                 <element signature="e#7#89#0#PHP" expanded="true" />
               </folding>
@@ -414,7 +414,7 @@
       <workItem from="1494142584958" duration="2059000" />
       <workItem from="1494180983833" duration="1881000" />
       <workItem from="1494185541597" duration="2092000" />
-      <workItem from="1494221441700" duration="1652000" />
+      <workItem from="1494221441700" duration="1908000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -654,11 +654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494222954693</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="All six dummy array items will now output">
+      <created>1494223112122</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1494223112122</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46339000" />
+    <option name="totallyTimeSpent" value="46595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -737,7 +744,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Displaying data with dateTime() method" />
     <MESSAGE value="Setting up an age calculation based on DateTime function" />
     <MESSAGE value="Age calculation demo completed in PHP for class exercise" />
     <MESSAGE value="Setting up the student.php file to pull info from include_once method on person2.php" />
@@ -762,7 +768,8 @@
     <MESSAGE value="Created template file, will be filling in details to pull data" />
     <MESSAGE value="Product thumbnail template changed &quot;product&quot; to &quot;name&quot;, and changed $content to $record in template.php" />
     <MESSAGE value="Created functions for output in template, used in-file test data to see if the script works before pulling from database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created functions for output in template, used in-file test data to see if the script works before pulling from database" />
+    <MESSAGE value="All six dummy array items will now output" />
+    <option name="LAST_COMMIT_MESSAGE" value="All six dummy array items will now output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1125,8 +1132,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        <state relative-caret-position="-20">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
           <folding>
             <element signature="e#7#89#0#PHP" expanded="true" />
           </folding>

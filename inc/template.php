@@ -43,6 +43,7 @@ $contentExample = array(
 class Template {
     private $template;
     private $content;
+    public $hasNext;
 
     public function __construct($template,$content) {
         // Should validate arguments before continuing
@@ -58,7 +59,9 @@ class Template {
             $html = str_replace("{".$key."}",$val,$html);
         }
         //next will allow the array to go to the next entry
-        next($this->content);
+        if(!next($this->content)){
+            $this->hasNext = FALSE;
+        };
         return $html;
 }
 
@@ -66,12 +69,10 @@ class Template {
         $this->template = file_get_contents("http://localhost/shawpractical/templates/$template",true);
         //$this->template = $template;
         $this->content = $content;
+        $this->hasNext = TRUE;
     }
 }
 $test = new Template('product_thumbnail.html',$contentExample);
-echo $test->output();
-echo $test->output();
-echo $test->output();
-echo $test->output();
-echo $test->output();
-echo $test->output();
+while($test->hasNext){
+    echo $test->output();
+}

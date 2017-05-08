@@ -57,6 +57,8 @@ class Template {
             //What you want to replace, what to replace it with, and string to search
             $html = str_replace("{".$key."}",$val,$html);
         }
+        //next will allow the array to go to the next entry
+        next($this->content);
         return $html;
 }
 
@@ -67,4 +69,9 @@ class Template {
     }
 }
 $test = new Template('product_thumbnail.html',$contentExample);
+echo $test->output();
+echo $test->output();
+echo $test->output();
+echo $test->output();
+echo $test->output();
 echo $test->output();

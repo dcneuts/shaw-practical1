@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b5bd34-f5b2-45de-909b-68a29049c971" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inc/template.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/template.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/template.php" afterPath="$PROJECT_DIR$/inc/template.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,8 +82,8 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
+            <state relative-caret-position="794">
+              <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
               <folding>
                 <element signature="e#7#89#0#PHP" expanded="true" />
               </folding>
@@ -415,7 +414,7 @@
       <workItem from="1494142584958" duration="2059000" />
       <workItem from="1494180983833" duration="1881000" />
       <workItem from="1494185541597" duration="2092000" />
-      <workItem from="1494221441700" duration="1475000" />
+      <workItem from="1494221441700" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -648,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494221791976</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Created functions for output in template, used in-file test data to see if the script works before pulling from database">
+      <created>1494222954693</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1494222954693</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46162000" />
+    <option name="totallyTimeSpent" value="46339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -731,7 +737,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating new demo for class exercise" />
     <MESSAGE value="Displaying data with dateTime() method" />
     <MESSAGE value="Setting up an age calculation based on DateTime function" />
     <MESSAGE value="Age calculation demo completed in PHP for class exercise" />
@@ -756,7 +761,8 @@
     <MESSAGE value="Setup template file for PHP dynamic fill using regular expressions" />
     <MESSAGE value="Created template file, will be filling in details to pull data" />
     <MESSAGE value="Product thumbnail template changed &quot;product&quot; to &quot;name&quot;, and changed $content to $record in template.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product thumbnail template changed &quot;product&quot; to &quot;name&quot;, and changed $content to $record in template.php" />
+    <MESSAGE value="Created functions for output in template, used in-file test data to see if the script works before pulling from database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created functions for output in template, used in-file test data to see if the script works before pulling from database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1119,8 +1125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
+        <state relative-caret-position="794">
+          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
           <folding>
             <element signature="e#7#89#0#PHP" expanded="true" />
           </folding>

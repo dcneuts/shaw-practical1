@@ -16,7 +16,8 @@ class Template {
     }
 
     public function output(){
-
+        $record = current($this->content);
+        $record['name'];
 }
 
     public function load($template,$content) {

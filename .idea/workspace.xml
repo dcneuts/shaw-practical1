@@ -96,13 +96,13 @@
       <file leaf-file-name="create_account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/create_account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+            <state relative-caret-position="706">
+              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1494308148198" expanded="true" signature="683:731" ph="SELECT FROM `users`... " />
-                <marker date="1494308148198" expanded="true" signature="683:732" ph="SELECT COUNT... users" />
-                <marker date="1494308148198" expanded="true" signature="1023:1089" ph="INSERT INTO `users`... " />
+                <marker date="1494308336216" expanded="true" signature="683:731" ph="SELECT FROM `users`... " />
+                <marker date="1494308336216" expanded="true" signature="683:732" ph="SELECT COUNT... users" />
+                <marker date="1494308336216" expanded="true" signature="1024:1090" ph="INSERT INTO `users`... " />
               </folding>
             </state>
           </provider>
@@ -460,7 +460,7 @@
       <workItem from="1494180983833" duration="1881000" />
       <workItem from="1494185541597" duration="2092000" />
       <workItem from="1494221441700" duration="4561000" />
-      <workItem from="1494289096699" duration="5554000" />
+      <workItem from="1494289096699" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -784,11 +784,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494308079915</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Using count() method to test username existence">
+      <created>1494308177611</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1494308177611</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54802000" />
+    <option name="totallyTimeSpent" value="54985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -867,7 +874,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created HTML form for signup and made a link to new file login.php which has not yet been created" />
     <MESSAGE value="Fixed HREF errors due to moving files around in project folder" />
     <MESSAGE value="Created DB and creating login control" />
     <MESSAGE value="First attempt at creating login and configuration file for database access with Bootstrap page" />
@@ -892,7 +898,8 @@
     <MESSAGE value="Building out the create account process and learning how to hash and salt password based on algo selected" />
     <MESSAGE value="Finished adding functions for creating account, will now need to work with password verify function and hashed passwords" />
     <MESSAGE value="Attempting to use security methods to test and strengthen login routines" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempting to use security methods to test and strengthen login routines" />
+    <MESSAGE value="Using count() method to test username existence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using count() method to test username existence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1270,13 +1277,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/create_account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="706">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1494308148198" expanded="true" signature="683:731" ph="SELECT FROM `users`... " />
-            <marker date="1494308148198" expanded="true" signature="683:732" ph="SELECT COUNT... users" />
-            <marker date="1494308148198" expanded="true" signature="1023:1089" ph="INSERT INTO `users`... " />
+            <marker date="1494308336216" expanded="true" signature="683:731" ph="SELECT FROM `users`... " />
+            <marker date="1494308336216" expanded="true" signature="683:732" ph="SELECT COUNT... users" />
+            <marker date="1494308336216" expanded="true" signature="1024:1090" ph="INSERT INTO `users`... " />
           </folding>
         </state>
       </provider>

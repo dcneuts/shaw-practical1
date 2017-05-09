@@ -48,12 +48,12 @@ $email = $_POST['email'];
 //salt and hash
 $password = password_hash($_POST['password'],PASSWORD_BCRYPT);
 
-$stmt = $conn->prepare("INSERT INTO `users` (`username`,`email`,`password`) VALUES (?,?,?)");
+$stmt2 = $conn->prepare("INSERT INTO `users` (`username`,`email`,`password`) VALUES (?,?,?)");
 
-$stmt->bind_param("sss",$username,$email,$password);
+$stmt2->bind_param("sss",$username,$email,$password);
 
 //execute
-$stmt->execute();
+$stmt2->execute();
 
 $conn->close();
 

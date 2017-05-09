@@ -26,6 +26,8 @@
     //comparison of passwords for later
     //session variables using stored pass/user for testing
     //redirection based on good or bad login
+
+    //for regular use, not for hashed use
     if($_POST['password']==$password){
         $_SESSION['id'] = $id;
         $_SESSION['username'] = $name;

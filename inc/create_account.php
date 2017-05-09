@@ -37,3 +37,5 @@ $stmt->bind_param("sss",$username,$email,$password);
 $stmt->execute();
 
 $conn->close();
+
+header("Location: ../signin.php");

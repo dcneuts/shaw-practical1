@@ -38,12 +38,11 @@ $username = $_POST['username'];
 $stmt = $conn->prepare("SELECT COUNT(*) FROM `users` WHERE `username` = ?");
 $stmt->bind_param("s",$username);
 $stmt->execute();
-$result = $stmt->get_result();
-
-if(!$stmt->get_result()){
-    die("Error: Username exists.");
+$stmt->bind_result($count);
+$stmt->fetch();
+if($count>0){
+    die("Error: Username already exists.");
 }
-
 
 $email = $_POST['email'];
 //salt and hash

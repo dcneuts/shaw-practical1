@@ -12,8 +12,17 @@ $_POST['email']
 $_POST['password']
 */
 
+//BEGIN security checks
 if(!isset($_POST['username'])||!isset($_POST['email'])||!isset($_POST['password'])){
     die("Data Error");
+}
+
+if(strlen($_POST['username'])>150){
+    die("Username too long.");
+}
+
+if(!strpos($_POST['email'],"@")){
+    die("Invalid email address.");
 }
 
 //assume validity of data
@@ -25,6 +34,17 @@ if($conn->connect_error){
 }
 
 $username = $_POST['username'];
+
+$stmt = $conn->prepare("SELECT COUNT(*) FROM `users` WHERE `username` = ?");
+$stmt->bind_param("s",$username);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if(!$stmt->get_result()){
+    die("Error: Username exists.");
+}
+
+
 $email = $_POST['email'];
 //salt and hash
 $password = password_hash($_POST['password'],PASSWORD_BCRYPT);
@@ -38,4 +58,4 @@ $stmt->execute();
 
 $conn->close();
 
-header("Location: ../signin.php");
+//header("Location: ../signin.php");

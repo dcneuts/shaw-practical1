@@ -27,8 +27,10 @@
     //session variables using stored pass/user for testing
     //redirection based on good or bad login
 
-    //for regular use, not for hashed use
-    if($_POST['password']==$password){
+    //password comparison, not manual
+    //first is given by user, second is hashed on the database
+    //auto detects salt and hash
+    if(password_verify($_POST['password'],$password)){
         $_SESSION['id'] = $id;
         $_SESSION['username'] = $name;
         header("Location: ../index.php");

@@ -34,7 +34,7 @@ if($conn->connect_error){
 }
 
 $username = $_POST['username'];
-
+//Active connection, must close it first
 $stmt = $conn->prepare("SELECT COUNT(*) FROM `users` WHERE `username` = ?");
 $stmt->bind_param("s",$username);
 $stmt->execute();
@@ -43,6 +43,7 @@ $stmt->fetch();
 if($count>0){
     die("Error: Username already exists.");
 }
+$stmt->close();
 
 $email = $_POST['email'];
 //salt and hash

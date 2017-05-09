@@ -12,6 +12,6 @@ $_POST['email']
 $_POST['password']
 */
 
-if(!isset($_POST['username'])||!isset($_POST['password'])){
+if(!isset($_POST['username'])||!isset($_POST['email'])||!isset($_POST['password'])){
     die("Data Error");
 }

@@ -96,8 +96,8 @@
       <file leaf-file-name="create_account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/create_account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="308">
+              <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
@@ -431,7 +431,7 @@
       <workItem from="1494180983833" duration="1881000" />
       <workItem from="1494185541597" duration="2092000" />
       <workItem from="1494221441700" duration="4561000" />
-      <workItem from="1494289096699" duration="1146000" />
+      <workItem from="1494289096699" duration="1201000" />
     </task>
     <task id="LOCAL-00001" summary="Creating new PHP file for exercise">
       <created>1493187933835</created>
@@ -720,11 +720,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494298899983</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Setting up preliminary checks">
+      <created>1494299118914</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1494299118914</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50394000" />
+    <option name="totallyTimeSpent" value="50449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -803,7 +810,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Getting Shawpify site set back up after long break, creating template for sign-in page and will be dynamically created" />
     <MESSAGE value="Fixed coding error in index.html for BS that disallowed the carousel to cycle" />
     <MESSAGE value="Reconfiguring the signin.php for template use" />
     <MESSAGE value="Refactoring for PHP-based template using INCLUDE method" />
@@ -828,7 +834,8 @@
     <MESSAGE value="Finished initial test template engine for class project" />
     <MESSAGE value="Created account sign-up page, will now need to create PHP to control this function" />
     <MESSAGE value="Initiated a create_account.php file to script the account creation functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initiated a create_account.php file to script the account creation functions" />
+    <MESSAGE value="Setting up preliminary checks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up preliminary checks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1203,8 +1210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/create_account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>

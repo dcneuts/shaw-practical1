@@ -74,19 +74,26 @@
                             die("Server connection error.");
                         }
                         //results variable that shows the query
-                        $result = $conn->query("SELECT `name`,`price`,`description` FROM `product` LIMIT 6 OFFSET 0");
+                        $result = $conn->query("SELECT `name`,`price`,`description` FROM `products` LIMIT 6 OFFSET 0");
 
                         //load results in 2D array
                         $content = array();
-                        while($row = $result->fetch-assoc()){
+                        while($row = $result->fetch_assoc()){
                             $content[] = $row;
                         }
                         $conn->close();
 
 
                         include_once "inc/template.php";
-                        $thumbnail = new Template("product_thumbnail.html",$contentExample);
-                        for($i=0;$i<$thumbnail->noOfResults;$i++){
+                        $thumbnail = new Template("product_thumbnail.html",$content);
+                        for($i=0;$i<PRODUCT_ROWS*PRODUCT_COLUMNS;$i++){
+                            //every 3 products a new row due to bootstrap
+                            //will create a new row
+                            if($i%PRODUCT_COLUMNS==0){
+                                if($i!=0){
+                                    echo "</div><div class='row'>";
+                                }
+                            }
                             echo "<div class='col-sm-4 col-lg-4 col-md-4'>";
                             echo $thumbnail->output();
                             echo "</div>";

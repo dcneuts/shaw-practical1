@@ -67,6 +67,12 @@
                 </div>
                 <div class='row'>
                     <?php
+                        //Create connection and query for product information
+                        include_once "inc/config.php";
+                        $conn = new mysqli(SERVER_NAME,USERNAME,PASSWORD, DATABASE);
+                        if($conn->connect_error) {
+                            die("Server connection error.");
+                        }
                         include_once "inc/template.php";
                         $thumbnail = new Template("product_thumbnail.html",$contentExample);
                         for($i=0;$i<$thumbnail->noOfResults;$i++){

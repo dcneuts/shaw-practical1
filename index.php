@@ -73,7 +73,17 @@
                         if($conn->connect_error) {
                             die("Server connection error.");
                         }
-                        $conn->query("SELECT `name`,`price`,`description` FROM `product` LIMIT 6 OFFSET 0");
+                        //results variable that shows the query
+                        $result = $conn->query("SELECT `name`,`price`,`description` FROM `product` LIMIT 6 OFFSET 0");
+
+                        //load results in 2D array
+                        $content = array();
+                        while($row = $result->fetch-assoc()){
+                            $content[] = $row;
+                        }
+                        $conn->close();
+
+
                         include_once "inc/template.php";
                         $thumbnail = new Template("product_thumbnail.html",$contentExample);
                         for($i=0;$i<$thumbnail->noOfResults;$i++){

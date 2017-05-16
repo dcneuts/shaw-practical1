@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b5bd34-f5b2-45de-909b-68a29049c971" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/head.inc.php" afterPath="$PROJECT_DIR$/inc/head.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/template.php" afterPath="$PROJECT_DIR$/inc/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products.php" afterPath="$PROJECT_DIR$/products.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -55,35 +58,33 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="83" column="39" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="83" selection-end-column="39" />
+            <state relative-caret-position="-2002">
+              <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
               <folding>
-                <marker date="1494917830777" expanded="true" signature="3689:3757" ph="SELECT `name... product" />
+                <marker date="1494923730894" expanded="true" signature="3384:3452" ph="SELECT `name... products" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="37" column="104" lean-forward="false" selection-start-line="37" selection-start-column="104" selection-end-line="37" selection-end-column="104" />
+            <state relative-caret-position="421">
+              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
-                <marker date="1494921525865" expanded="true" signature="624:759" ph="SELECT `name... products" />
-                <marker date="1494921525865" expanded="true" signature="1289:1356" ph="SELECT `name... products" />
-                <marker date="1494921525865" expanded="true" signature="1289:1357" ph="SELECT `name... products" />
-                <marker date="1494921525865" expanded="true" signature="1705:1773" ph="SELECT `name... products" />
+                <marker date="1494922709483" expanded="true" signature="618:758" ph="SELECT `name... products" />
+                <marker date="1494922709483" expanded="true" signature="1226:1294" ph="SELECT `name... products" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.inc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/head.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="51" column="85" lean-forward="false" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
+            <state relative-caret-position="707">
+              <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -92,8 +93,8 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="85" column="62" lean-forward="false" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
+            <state relative-caret-position="1081">
+              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -159,11 +160,11 @@
         <option value="$PROJECT_DIR$/inc/login.php" />
         <option value="$PROJECT_DIR$/inc/create_account.php" />
         <option value="$PROJECT_DIR$/js/dynamicimageloading.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/inc/config.php" />
-        <option value="$PROJECT_DIR$/inc/head.inc.php" />
-        <option value="$PROJECT_DIR$/inc/template.php" />
         <option value="$PROJECT_DIR$/products.php" />
+        <option value="$PROJECT_DIR$/inc/template.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/inc/head.inc.php" />
       </list>
     </option>
   </component>
@@ -257,6 +258,28 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="External Dependencies">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="/">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="home">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="derek">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="shawpractical">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -338,10 +361,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/shawpify7/inc/template.php" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Database Driver" />
-    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/shawpifyv0.4/shawpifyv0.4/shawpify4/inc/login.php" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/shawpify7/inc/template.php" />
     <property name="settings.editor.splitter.proportion" value="0.251714" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -492,14 +515,7 @@
       <workItem from="1494289096699" duration="5892000" />
       <workItem from="1494911371544" duration="187000" />
       <workItem from="1494911579439" duration="6589000" />
-      <workItem from="1494920462112" duration="1277000" />
-    </task>
-    <task id="LOCAL-00007" summary="Removal of index.php, will not be needed right now">
-      <created>1493508339353</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1493508339353</updated>
+      <workItem from="1494920462112" duration="4094000" />
     </task>
     <task id="LOCAL-00008" summary="Modification of PHP demo file to make it cleaner, placed in line break.">
       <created>1493536627480</created>
@@ -837,11 +853,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494919984051</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Debugging why 'mysqli' error exists, had to adjust CHOWN permissions on lampp/temp directory causing additional PHP errors">
+      <created>1494921795074</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1494921795074</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63193000" />
+    <option name="totallyTimeSpent" value="66010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1086" extended-state="6" />
@@ -850,7 +873,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19743863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29301354" sideWeight="0.5083032" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29301354" sideWeight="0.5083032" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16221985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -920,7 +943,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup template file for PHP dynamic fill using regular expressions" />
     <MESSAGE value="Created template file, will be filling in details to pull data" />
     <MESSAGE value="Product thumbnail template changed &quot;product&quot; to &quot;name&quot;, and changed $content to $record in template.php" />
     <MESSAGE value="Created functions for output in template, used in-file test data to see if the script works before pulling from database" />
@@ -945,20 +967,14 @@
     <MESSAGE value="Products are now dynamically generated and just added a new blank template for a products page for search integration" />
     <MESSAGE value="Updated header template for products.php on all pages" />
     <MESSAGE value="Created array to pull content from DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created array to pull content from DB" />
+    <MESSAGE value="Debugging why 'mysqli' error exists, had to adjust CHOWN permissions on lampp/temp directory causing additional PHP errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debugging why 'mysqli' error exists, had to adjust CHOWN permissions on lampp/temp directory causing additional PHP errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/signout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1221,15 +1237,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/head.inc.php">
+    <entry file="file://$PROJECT_DIR$/templates/product_thumbnail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="85" lean-forward="false" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/product_thumbnail.html">
+    <entry file="file://$USER_HOME$/Downloads/shawpify7/products.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1245,34 +1261,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="85" column="62" lean-forward="false" selection-start-line="85" selection-start-column="62" selection-end-line="85" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="83" column="39" lean-forward="false" selection-start-line="70" selection-start-column="24" selection-end-line="83" selection-end-column="39" />
+        <state relative-caret-position="-2002">
+          <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
           <folding>
-            <marker date="1494917830777" expanded="true" signature="3689:3757" ph="SELECT `name... product" />
+            <marker date="1494923730894" expanded="true" signature="3384:3452" ph="SELECT `name... products" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="37" column="104" lean-forward="false" selection-start-line="37" selection-start-column="104" selection-end-line="37" selection-end-column="104" />
+        <state relative-caret-position="421">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
-            <marker date="1494921525865" expanded="true" signature="624:759" ph="SELECT `name... products" />
-            <marker date="1494921525865" expanded="true" signature="1289:1356" ph="SELECT `name... products" />
-            <marker date="1494921525865" expanded="true" signature="1289:1357" ph="SELECT `name... products" />
-            <marker date="1494921525865" expanded="true" signature="1705:1773" ph="SELECT `name... products" />
+            <marker date="1494922709483" expanded="true" signature="618:758" ph="SELECT `name... products" />
+            <marker date="1494922709483" expanded="true" signature="1226:1294" ph="SELECT `name... products" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/head.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

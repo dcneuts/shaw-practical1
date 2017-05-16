@@ -46,7 +46,7 @@ $contentExample = array(
 
 class Template {
     private $template;
-    private $content;
+	private $content = array();
     private $hasNext;
     private $noOfResults;
 
@@ -68,6 +68,7 @@ class Template {
     }
 
     public function output(){
+		if($this->hasNext){
         $record = current($this->content);
         $html = $this->template;
 
@@ -81,6 +82,10 @@ class Template {
         };
         return $html;
 }
+		else{
+			return "";
+		}
+	}
 
     public function load($template,$content) {
         $this->template = file_get_contents("http://localhost/shawpractical/templates/$template",true);
@@ -88,6 +93,9 @@ class Template {
         $this->content = $content;
         $this->hasNext = TRUE;
         $this->noOfResults = sizeof($this->content);
+		if($this->noOfResults == 0){
+			$this->hasNext = FALSE;
+		}
     }
 }
 /*

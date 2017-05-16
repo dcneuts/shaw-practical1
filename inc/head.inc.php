@@ -49,8 +49,8 @@
                     <a href='#'><span class='glyphicon glyphicon-shopping-cart'>Cart</span></a>
                 </li>
                 <li>
-                    <form class='navbar-form' action='../products.php' method='POST'>
-                        <input type='text' class='form-control' placeholder='Search for a Product'>
+                    <form class='navbar-form' action='products.php' method='POST'>
+                        <input type='text' class='form-control' placeholder='Search for a Product' name='searchterm'>
                         <button type='submit' class='btn btn-primary'>
                             <span class='glyphicon glyphicon-search'></span>
                         </button>

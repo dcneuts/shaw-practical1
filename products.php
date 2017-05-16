@@ -22,9 +22,10 @@ include 'inc/head.inc.php';
         }
         $content = array();
         if(isset($_POST['searchterm'])){
-            $stmt = $conn->prepare("SELECT `name`,`price`,`description` FROM `products` WHERE `name` LIKE ? OR 'description' LIKE ? ORDER BY `stock` DESC 
-LIMIT 6 OFFSET 0");
-            //Wrap array in curly braces in syntax like this
+
+					$stmt = $conn->prepare("SELECT `name`,`price`,`description` FROM `products`
+						WHERE `name` LIKE ? OR `description` LIKE ? ORDER BY `stock` DESC LIMIT 6 OFFSET 0
+					");
             $searchterm = "%{$_POST['searchterm']}%";
             $stmt->bind_param("ss",$searchterm,$searchterm);
             $stmt->execute();
@@ -35,7 +36,7 @@ LIMIT 6 OFFSET 0");
             }
         }
         else {
-            $result = $conn->query("SELECT `name`,`price`,`description` FROM `products` LIMIT 6 OFFSET 9");
+					$result = $conn->query("SELECT `name`,`price`,`description` FROM `products` LIMIT 6 OFFSET 9");
 
             //load results in 2D array
             $content = array();
@@ -45,9 +46,6 @@ LIMIT 6 OFFSET 0");
         }
         //close DB connection afterwards, not in the loop
         $conn->close();
-
-        //results variable that shows the query
-        $result = $conn->query("SELECT `name`,`price`,`description` FROM `products` LIMIT 6 OFFSET 0");
 
         include_once "inc/template.php";
         $thumbnail = new Template("product_thumbnail.html", $content);

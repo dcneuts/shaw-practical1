@@ -40,12 +40,12 @@
             </div>
             <div class='col-md-9'>
                 <div class='row carousel-holder'>
-                    <div class='col-md-12'>
-                        <div id='carousel-example-generic' class='carousel-slide' data-ride='carousel'>
+					<div class='col-md-12'>	  <!--FIX: NOT class='carousel-slide'-->
+						<div id='carousel' class='carousel slide' data-ride='carousel'>
                             <ol class='carousel-indicators'>
-                                <li data-target='#carousel-example-generic' data-slide-to='0' class='active'></li>
-                                <li data-target='#carousel-example-generic' data-slide-to='1' class='active'></li>
-                                <li data-target='#carousel-example-generic' data-slide-to='2' class='active'></li>
+								<li data-target='#carousel' data-slide-to='0' class='active'></li>
+								<li data-target='#carousel' data-slide-to='1'></li>
+								<li data-target='#carousel' data-slide-to='2'></li>
                             </ol>
                             <div class='carousel-inner'>
                                 <div class='item active'>
@@ -57,11 +57,15 @@
                                 <div class='item'>
                                     <img class='slide-image' src='img/car3.jpg' alt='Car 3'>
                                 </div>
+							</div><!--ACTION FOR SLIDER -->
+							<a class='left carousel-control' href='#carousel' data-slide='prev'>
+								<span class='glyphicon glyphicon-chevron-left'></span>
+							</a>
+
+							<a class='right carousel-control' href='#carousel' data-slide='next'>
+								<span class='glyphicon glyphicon-chevron-right'></span>
+							</a>
                             </div>
-                            <a class='left carousel-control' href='#carousel-example-generic'
-                               data-slide='prev'><span class='glyphicon glyphicon-chevron-left'></span> </a>
-                            <a class='right carousel-control' href='#carousel-example-generic'
-                               data-slide='next'><span class='glyphicon glyphicon-chevron-right'></span> </a>
                         </div>
                     </div>
                 </div>
@@ -73,8 +77,7 @@
                         if($conn->connect_error) {
                             die("Server connection error.");
                         }
-                        //results variable that shows the query
-                        $result = $conn->query("SELECT `name`,`price`,`description` FROM `products` LIMIT 6 OFFSET 0");
+					$result = $conn->query("SELECT `name`,`price`,`description` FROM `products` LIMIT 6 OFFSET 9");
 
                         //load results in 2D array
                         $content = array();
@@ -86,21 +89,19 @@
 
                         include_once "inc/template.php";
                         $thumbnail = new Template("product_thumbnail.html",$content);
-                        for($i=0;$i<PRODUCT_ROWS*PRODUCT_COLUMNS;$i++){
-                            //every 3 products a new row due to bootstrap
-                            //will create a new row
-                            if($i%PRODUCT_COLUMNS==0){
-                                if($i!=0){
-                                    echo "</div><div class='row'>";
-                                }
+                    for($i=0;$i<PRODUCT_ROWS*PRODUCT_COLUMNS;$i++){
+                        if($i%PRODUCT_COLUMNS==0){
+                            if($i!=0){
+                                echo "</div><div class='row'>";
                             }
-                            echo "<div class='col-sm-4 col-lg-4 col-md-4'>";
+                        }
+                            echo "<div class='col-sm-3 col-lg-3 col-md-3'>";
                             echo $thumbnail->output();
                             echo "</div>";
                         }
                     ?>
                     <!--
-                    <div class='col-md-4'>
+					<div class='col-sm-4 col-lg-4 col-md-4'>
                         <div class='thumbnail'>
                             <img src='http://placehold.it/320x150' alt='Thumbnail Image'>
                             <div class='caption'>
@@ -120,7 +121,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class='col-md-4'>
+
+					<div class='col-sm-4 col-lg-4 col-md-4'>
                         <div class='thumbnail'>
                             <img src='http://placehold.it/320x150' alt='Thumbnail Image'>
                             <div class='caption'>
@@ -140,7 +142,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class='col-md-4'>
+
+					<div class='col-sm-4 col-lg-4 col-md-4'>
                         <div class='thumbnail'>
                             <img src='http://placehold.it/320x150' alt='Thumbnail Image'>
                             <div class='caption'>
@@ -182,7 +185,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class='col-md-4'>
+
+					<div class='col-sm-4 col-lg-4 col-md-4'>
                         <div class='thumbnail'>
                             <img src='http://placehold.it/320x150' alt='Thumbnail Image'>
                             <div class='caption'>
@@ -202,7 +206,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class='col-md-4'>
+
+					<div class='col-sm-4 col-lg-4 col-md-4'>
                         <div class='thumbnail'>
                             <img src='http://placehold.it/320x150' alt='Thumbnail Image'>
                             <div class='caption'>
@@ -246,7 +251,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </main>
 <!--Footer Area-->
 <?php

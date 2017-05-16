@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b5bd34-f5b2-45de-909b-68a29049c971" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/products.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/config.php" afterPath="$PROJECT_DIR$/inc/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/head.inc.php" afterPath="$PROJECT_DIR$/inc/head.inc.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,21 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="440">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.inc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/head.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -142,7 +140,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/inc/foot.inc.php" />
         <option value="$PROJECT_DIR$/signin.php" />
-        <option value="$PROJECT_DIR$/inc/head.inc.php" />
         <option value="dbtable:/ba58409e/f87560b3-4dc3-4be5-b3c2-28bddd8df378/shawpify2017.users" />
         <option value="$PROJECT_DIR$/signout.php" />
         <option value="$PROJECT_DIR$/templates/product_thumbnail.html" />
@@ -155,6 +152,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/inc/config.php" />
         <option value="$PROJECT_DIR$/products.php" />
+        <option value="$PROJECT_DIR$/inc/head.inc.php" />
       </list>
     </option>
   </component>
@@ -468,14 +466,7 @@
       <workItem from="1494221441700" duration="4561000" />
       <workItem from="1494289096699" duration="5892000" />
       <workItem from="1494911371544" duration="187000" />
-      <workItem from="1494911579439" duration="4429000" />
-    </task>
-    <task id="LOCAL-00004" summary="Another iteration of PHP using the function __get() method to dynamically generate based on the array and loop.">
-      <created>1493507817565</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1493507817565</updated>
+      <workItem from="1494911579439" duration="4524000" />
     </task>
     <task id="LOCAL-00005" summary="Concat of PHP output">
       <created>1493507920637</created>
@@ -813,11 +804,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494917226501</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Products are now dynamically generated and just added a new blank template for a products page for search integration">
+      <created>1494918258095</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1494918258095</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59756000" />
+    <option name="totallyTimeSpent" value="59851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1086" extended-state="6" />
@@ -896,7 +894,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modified index to implement session start and recognition of user" />
     <MESSAGE value="Added signout features, but continuing to debug" />
     <MESSAGE value="Prepared all files for next phase of practical. Major step was changing double quotes to single quotes in index.php due to PHP integration issues." />
     <MESSAGE value="Setup template file for PHP dynamic fill using regular expressions" />
@@ -921,7 +918,8 @@
     <MESSAGE value="Had to adjust absolute links for localhost due to change from Windows WAMP to Linux LAMP environment" />
     <MESSAGE value="Established SQL query for products using BS framework already setup, so needed 6 products only due to 3 products per row" />
     <MESSAGE value="Setting up the 2D array for content fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up the 2D array for content fetch" />
+    <MESSAGE value="Products are now dynamically generated and just added a new blank template for a products page for search integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Products are now dynamically generated and just added a new blank template for a products page for search integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1206,14 +1204,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/head.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/product_thumbnail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1259,8 +1249,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/head.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding />
         </state>
       </provider>

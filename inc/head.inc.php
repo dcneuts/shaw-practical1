@@ -30,7 +30,7 @@
         <div class='collapse navbar-collapse' id='myNavbar'>
             <ul class='nav navbar-nav'>
                 <li>
-                    <a href='#'>Products</a>
+                    <a href='products.php'>Products</a>
                 </li>
                 <li>
                     <a href='#'>Deals</a>

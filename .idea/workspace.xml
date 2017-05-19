@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90b5bd34-f5b2-45de-909b-68a29049c971" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ajax.js" afterPath="$PROJECT_DIR$/js/ajax.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,10 +51,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="5478">
               <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
               <folding>
                 <marker date="1495180970340" expanded="true" signature="3278:3346" ph="SELECT `name... products" />
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="154">
+              <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/inc/template.php" />
         <option value="$PROJECT_DIR$/inc/head.inc.php" />
         <option value="$PROJECT_DIR$/inc/foot.inc.php" />
-        <option value="$PROJECT_DIR$/js/ajax.js" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/ajax.js" />
       </list>
     </option>
   </component>
@@ -458,14 +458,7 @@
       <workItem from="1494920462112" duration="4143000" />
       <workItem from="1495005670307" duration="12000" />
       <workItem from="1495005708066" duration="81000" />
-      <workItem from="1495177495860" duration="3488000" />
-    </task>
-    <task id="LOCAL-00013" summary="Setting up the student.php file to pull info from include_once method on person2.php">
-      <created>1493538863333</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1493538863333</updated>
+      <workItem from="1495177495860" duration="3719000" />
     </task>
     <task id="LOCAL-00014" summary="Using public function __get() magic method with IF to allow direct echo of content without imploding every time.">
       <created>1493539350340</created>
@@ -803,11 +796,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495180845681</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Reconfig of main and divs for Ajax prep, per instructor">
+      <created>1495181011603</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1495181011603</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69640000" />
+    <option name="totallyTimeSpent" value="69871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1086" extended-state="6" />
@@ -886,7 +886,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Preparing main index file for template injection" />
     <MESSAGE value="Setup template within index and used a loop to cycle through the array, injecting HTML back into the page for BS columns" />
     <MESSAGE value="Finished initial test template engine for class project" />
     <MESSAGE value="Created account sign-up page, will now need to create PHP to control this function" />
@@ -911,7 +910,8 @@
     <MESSAGE value="Used code comparison between my version and the instructor's version to debug, realized that I had a few extra DIVs and columns within one DIV section were off a bit." />
     <MESSAGE value="Integrated Ajax template" />
     <MESSAGE value="Reconfiguration of the header and where it's placed in the DOM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reconfiguration of the header and where it's placed in the DOM" />
+    <MESSAGE value="Reconfig of main and divs for Ajax prep, per instructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reconfig of main and divs for Ajax prep, per instructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1223,22 +1223,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="5478">
+          <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <marker date="1495180970340" expanded="true" signature="3278:3346" ph="SELECT `name... products" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
+        <state relative-caret-position="154">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <marker date="1495180970340" expanded="true" signature="3278:3346" ph="SELECT `name... products" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>

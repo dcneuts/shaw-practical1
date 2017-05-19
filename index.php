@@ -5,7 +5,8 @@ session_start();
 include 'inc/head.inc.php';
 ?>
 	<!--MAIN-->
-	<main class='container'>
+<main>
+	<div class='container'>
         <header class="container-fluid jumbotron text-center">
             <h1>Shawpify</h1>
             <?php
@@ -246,6 +247,7 @@ include 'inc/head.inc.php';
                 </div>
             </div>
         </div>
+    </div>
 </main>
 <!--Footer Area-->
 <?php

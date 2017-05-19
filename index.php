@@ -1,25 +1,22 @@
-<?php
-    session_start();
-    include 'inc/head.inc.php';
-?>
+
 <!--Header-->
-<header>
-    <div class='container-fluid'>
-        <div class='jumbotron text-center'>
-            <h1>Shawpify</h1>
-            <?php
-                if(isset($_SESSION['username'])){
-                    echo '<p>Welcome back, '.$_SESSION['username'].'!</p>';
-                }
-                else {
-                    echo '<p>Offering a wide range of products from consumer electronics to cars</p>';
-                }
-            ?>
-        </div>
-    </div>
-</header>
+<?php
+session_start();
+include 'inc/head.inc.php';
+?>
 	<!--MAIN-->
 	<main class='container'>
+        <header class="container-fluid jumbotron text-center">
+            <h1>Shawpify</h1>
+            <?php
+            if(isset($_SESSION['username'])){
+                echo '<p>Welcome back, '.$_SESSION['username'].'!</p>';
+            }
+            else {
+                echo '<p>Offering a wide range of products from consumer electronics to cars</p>';
+            }
+            ?>
+        </header>
         <div class='row'>
             <div class='col-md-3'>
                 <p class='lead'>Product Range</p>

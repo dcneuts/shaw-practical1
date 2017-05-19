@@ -6,7 +6,7 @@ $(document).ready(function () {
 		event.preventDefault();
 		//Number is in milliseconds
 		//Callback function after time is up
-		$("main").fadeOut(300,function () {
+		$("main").fadeOut(200,function () {
 			$("main").load($(this).attr("href")+" main",completeFunction);
 		});
 	});
@@ -14,6 +14,8 @@ $(document).ready(function () {
 	function completeFunction(responseText, textStatus, request) {
 		if(textStatus == "error"){
 			$("main").text("An error has occurred: "+ request.status+" "+request.statusText);
+		} else {
+			$("main").fadeIn(300);
 		}
 	}
 });

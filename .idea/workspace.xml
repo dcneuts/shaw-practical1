@@ -86,8 +86,8 @@
       <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -458,14 +458,7 @@
       <workItem from="1494920462112" duration="4143000" />
       <workItem from="1495005670307" duration="12000" />
       <workItem from="1495005708066" duration="81000" />
-      <workItem from="1495177495860" duration="3886000" />
-    </task>
-    <task id="LOCAL-00016" summary="Created index.php and pulled in two additional files for data display, formatted the output, done with PHP practical class before moving on to additional building of e-commerce practical site">
-      <created>1493540693948</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1493540693948</updated>
+      <workItem from="1495177495860" duration="4400000" />
     </task>
     <task id="LOCAL-00017" summary="Getting Shawpify site set back up after long break, creating template for sign-in page and will be dynamically created">
       <created>1493542099481</created>
@@ -803,11 +796,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495181313976</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Preventing default behaviors, established fadeout and then implemented a callback function">
+      <created>1495181423902</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1495181423902</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70038000" />
+    <option name="totallyTimeSpent" value="70552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1086" extended-state="6" />
@@ -886,7 +886,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created account sign-up page, will now need to create PHP to control this function" />
     <MESSAGE value="Initiated a create_account.php file to script the account creation functions" />
     <MESSAGE value="Setting up preliminary checks" />
     <MESSAGE value="Adding another field to check" />
@@ -911,7 +910,8 @@
     <MESSAGE value="Reconfig of main and divs for Ajax prep, per instructor" />
     <MESSAGE value="Preliminary Ajax config" />
     <MESSAGE value="Fixed Ajax syntax error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Ajax syntax error" />
+    <MESSAGE value="Preventing default behaviors, established fadeout and then implemented a callback function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preventing default behaviors, established fadeout and then implemented a callback function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1235,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>

@@ -4,7 +4,11 @@
 $(document).ready(function () {
 	$("body>nav a").on("click",function (event) {
 		event.preventDefault();
-		$("main").load($(this).attr("href")+" main",completeFunction);
+		//Number is in milliseconds
+		//Callback function after time is up
+		$("main").fadeOut(300,function () {
+			$("main").load($(this).attr("href")+" main",completeFunction);
+		});
 	});
 //Errors will get printed to contents of Main
 	function completeFunction(responseText, textStatus, request) {

@@ -86,8 +86,8 @@
       <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            <state relative-caret-position="66">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -458,14 +458,7 @@
       <workItem from="1494920462112" duration="4143000" />
       <workItem from="1495005670307" duration="12000" />
       <workItem from="1495005708066" duration="81000" />
-      <workItem from="1495177495860" duration="3719000" />
-    </task>
-    <task id="LOCAL-00014" summary="Using public function __get() magic method with IF to allow direct echo of content without imploding every time.">
-      <created>1493539350340</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1493539350340</updated>
+      <workItem from="1495177495860" duration="3795000" />
     </task>
     <task id="LOCAL-00015" summary="Pulled data from other php file using include_once method to use other classes, output using echo">
       <created>1493539747240</created>
@@ -803,11 +796,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495181011603</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Preliminary Ajax config">
+      <created>1495181239240</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1495181239240</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69871000" />
+    <option name="totallyTimeSpent" value="69947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1086" extended-state="6" />
@@ -886,7 +886,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Setup template within index and used a loop to cycle through the array, injecting HTML back into the page for BS columns" />
     <MESSAGE value="Finished initial test template engine for class project" />
     <MESSAGE value="Created account sign-up page, will now need to create PHP to control this function" />
     <MESSAGE value="Initiated a create_account.php file to script the account creation functions" />
@@ -911,7 +910,8 @@
     <MESSAGE value="Integrated Ajax template" />
     <MESSAGE value="Reconfiguration of the header and where it's placed in the DOM" />
     <MESSAGE value="Reconfig of main and divs for Ajax prep, per instructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reconfig of main and divs for Ajax prep, per instructor" />
+    <MESSAGE value="Preliminary Ajax config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preliminary Ajax config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1235,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        <state relative-caret-position="66">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>

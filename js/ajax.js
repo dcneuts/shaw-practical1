@@ -3,7 +3,6 @@
  */
 $(document).ready(function () {
 	$("body>nav a").on("click",function (event) {
-		this
 		event.preventDefault();
 		$("main").load($(this).attr("href")+" main",completeFunction);
 	});

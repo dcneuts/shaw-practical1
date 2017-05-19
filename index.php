@@ -18,10 +18,8 @@
         </div>
     </div>
 </header>
-
-<!--Main Content-->
-<main>
-    <div class='container'>
+	<!--MAIN-->
+	<main class='container'>
         <div class='row'>
             <div class='col-md-3'>
                 <p class='lead'>Product Range</p>
@@ -68,7 +66,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+
                 <div class='row'>
                     <?php
                         //Create connection and query for product information
@@ -95,7 +93,7 @@
                                 echo "</div><div class='row'>";
                             }
                         }
-                            echo "<div class='col-sm-3 col-lg-3 col-md-3'>";
+                            echo "<div class='col-sm-4 col-lg-4 col-md-4'>";
                             echo $thumbnail->output();
                             echo "</div>";
                         }
@@ -226,8 +224,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>-->
-                </div>
+                    </div>
                 <div class='text-center'>
                     <nav aria-label='Page navigation'>
                         <ul class='pagination'>
@@ -248,6 +245,7 @@
                             </li>
                         </ul>
                     </nav>
+					</div>-->
                 </div>
             </div>
         </div>

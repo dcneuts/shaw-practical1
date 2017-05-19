@@ -88,7 +88,7 @@ class Template {
 	}
 
     public function load($template,$content) {
-        $this->template = file_get_contents("http://localhost/shawpractical/templates/$template",true);
+		$this->template = file_get_contents("templates/$template",true);
         //$this->template = $template;
         $this->content = $content;
         $this->hasNext = TRUE;

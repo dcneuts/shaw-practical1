@@ -86,8 +86,8 @@
       <file leaf-file-name="ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="638">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -457,14 +457,7 @@
       <workItem from="1495005670307" duration="12000" />
       <workItem from="1495005708066" duration="81000" />
       <workItem from="1495177495860" duration="4426000" />
-      <workItem from="1495306213119" duration="929000" />
-    </task>
-    <task id="LOCAL-00018" summary="Fixed coding error in index.html for BS that disallowed the carousel to cycle">
-      <created>1493612152923</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1493612152923</updated>
+      <workItem from="1495306213119" duration="1944000" />
     </task>
     <task id="LOCAL-00019" summary="Reconfiguring the signin.php for template use">
       <created>1493704812539</created>
@@ -802,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495181913750</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Completed functions to make screen fade in and out, just for testing purposes">
+      <created>1495307162048</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1495307162049</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71507000" />
+    <option name="totallyTimeSpent" value="72522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1086" extended-state="6" />
@@ -885,7 +885,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initiated a create_account.php file to script the account creation functions" />
     <MESSAGE value="Setting up preliminary checks" />
     <MESSAGE value="Adding another field to check" />
     <MESSAGE value="Building out the create account process and learning how to hash and salt password based on algo selected" />
@@ -910,7 +909,8 @@
     <MESSAGE value="Preliminary Ajax config" />
     <MESSAGE value="Fixed Ajax syntax error" />
     <MESSAGE value="Preventing default behaviors, established fadeout and then implemented a callback function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preventing default behaviors, established fadeout and then implemented a callback function" />
+    <MESSAGE value="Completed functions to make screen fade in and out, just for testing purposes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed functions to make screen fade in and out, just for testing purposes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1236,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="638">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding />
         </state>
       </provider>

@@ -17,11 +17,11 @@ $(document).ready(function () {
 
 	//ajax search bar functionality to override default html behaviors
 	//instructors note that in real-world scenario, class or id would be targeted, not generic
-	$("body>nav form").on("click", function (event) {
+	$("body>nav form>button").on("click", function (event) {
 		//prevent default behaviors
 		event.preventDefault();
 		//makes permanent reference to form once clicked
-		$target = $(this);
+		$target = $(this).parent();
 		$("main").fadeOut(300,function () {
 			loadSearch($target);
 		});

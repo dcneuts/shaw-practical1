@@ -27,7 +27,15 @@ $(document).ready(function () {
 		});
 	});
 	function loadSearch($element){
-
+		//find get variables
+		//make data object exist within the function to persist
+		data = {};
+		//to use the below function, first is always index for array and then name of elements
+		$element.find("input").each(function(index,input){
+			//matches the format on line 32
+			data[input.name] = input.value;
+		});
+		$("main").load($element.attr("action")+" main",data,completeFunction);
 	}
 //Errors will get printed to contents of Main
 	function completeFunction(responseText, textStatus, request) {

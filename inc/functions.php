@@ -7,7 +7,7 @@ function secure_session_start() {
     $domain = "localhost";
     $secure = TRUE;
     $httponly = TRUE;
-    set_session_cookie_params($lifetime,$path,$domain,$secure,$httponly);
+    session_set_cookie_params($lifetime,$path,$domain,$secure,$httponly);
 
     session_start();
 }

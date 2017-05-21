@@ -4,7 +4,7 @@ function secure_session_start() {
 
     $lifetime = 3600;
     $path ="/";
-    $domain = "localhost";
+    $domain = "localhost/shawpractical/";
     $secure = TRUE;
     $httponly = TRUE;
     session_set_cookie_params($lifetime,$path,$domain,$secure,$httponly);

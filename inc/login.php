@@ -1,4 +1,5 @@
 <?php
+    include_once 'functions.php';
     secure_session_start();
     //$_POST['username'];
     //$_POST['password'];
@@ -8,7 +9,7 @@
         die("Error:".var_dump($_POST));
     }
 
-    session_start();
+    secure_session_start();
     include_once "config.php";
     $conn = new mysqli(SERVER_NAME,USERNAME,PASSWORD,DATABASE);
 

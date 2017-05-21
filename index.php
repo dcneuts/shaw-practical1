@@ -2,8 +2,8 @@
 <!--Header-->
 <?php
 include 'inc/functions.php';
-include 'inc/head.inc.php';
 secure_session_start();
+include 'inc/head.inc.php';
 ?>
 	<!--MAIN-->
 <main>

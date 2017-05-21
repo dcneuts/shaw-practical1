@@ -52,7 +52,7 @@
 		<h4><a href='inc/productimages.php'>{$product['name']}</a>
 		</h4>
             <p>{$product['description']}</p>
-            <button class='btn btn-success'>Add to Cart</button>
+            <button class='btn btn-success text-center'>Add to Cart</button>
         </div>
         <div class='ratings'>
             <p class='pull-right'>67 reviews</p>

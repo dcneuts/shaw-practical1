@@ -26,6 +26,15 @@ $(document).ready(function () {
 			loadSearch($target);
 		});
 	});
+
+	//later implementation of ajax add to cart
+	$(".add-to-cart").on("click", function (event) {
+		var buttonId = $(this).attr("id");
+		var productId = parseInt(buttonId.replace("product",""));
+		//send to PHP to add to cart
+		$.post("add_to_cart.php",{"productID":productId});
+	});
+
 	function loadSearch($element){
 		//find get variables
 		//make data object exist within the function to persist

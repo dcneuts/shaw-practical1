@@ -4,6 +4,7 @@
 include 'inc/functions.php';
 secure_session_start();
 include 'inc/head.inc.php';
+include 'templates/HTMLGenerator.php'
 ?>
 	<!--MAIN-->
 <main>

@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    secure_session_start();
     $_SESSION=array();
     $params=session_get_cookie_params();
     //unset the cookie by setting time/date in the past
@@ -13,7 +13,7 @@
 
 <header>
     <div class="container">
-        <h1>Log Out</h1>
+        <h1>Sign Out</h1>
     </div>
 </header>
 

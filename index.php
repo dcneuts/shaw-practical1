@@ -1,8 +1,9 @@
 
 <!--Header-->
 <?php
-session_start();
+include 'inc/functions.php'
 include 'inc/head.inc.php';
+secure_session_start();
 ?>
 	<!--MAIN-->
 <main>
